@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
+/* Css Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #fbc2eb, #a6c1ee);
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+}
+
+#main-container {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.btn {
+  padding: 4px 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#input-container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+#input-todo {
+  visibility: hidden;
+  padding: 8px 10px;
+  width: 500px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+#btn-add-todo {
+  padding: 4px 6px;
+  margin-left: 10px;
+  cursor: pointer;
+  visibility: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 15px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+}
+
+.edit-button {
+  background-color: gray;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.edit-button:hover {
+  background-color: rgb(102, 102, 102);
+}
+
+.delete-button {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: rgb(233, 18, 18);
+}
+
+.cancel-button {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+}
+
+.cancel-button:hover {
+  background-color: rgb(233, 18, 18);
+}
+
+.save-button {
+  background-color: gray;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+}
+
+.save-button:hover {
+  background-color: rgb(61, 61, 61);
+}
+
+.editingInput{
+  padding: 2px 10px;
+  width: 500px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
